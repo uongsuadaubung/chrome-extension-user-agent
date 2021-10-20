@@ -1,0 +1,13 @@
+{
+    "name": "Meow Agent",
+    "version": "0.1",
+    "description": "A test for webrequest",
+    "manifest_version": 2,
+    "permissions": [
+      "*://*.netflix.com/","webRequest","webRequestBlocking"
+    ],
+    "background": {
+      "scripts": ["content.js"],
+      "persistent": true
+    }
+  }
